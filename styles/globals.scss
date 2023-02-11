@@ -1,0 +1,137 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $soft-white;
+  min-height: 100vh;
+}
+
+#__next {
+  height: 100%;
+  min-height: 100vh;
+}
+
+#__next {
+  @media only screen and(max-width: 600px) {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  overflow: hidden;
+}
+
+.btn-primary {
+  background-color: $blue-primary;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  color: $soft-white;
+  padding: 12px 40px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $blue-primary-hover;
+    border-color: $blue-primary-hover;
+  }
+
+  &:active {
+    background-color: $blue-primary-hover;
+    border-color: $blue-primary-hover;
+  }
+
+  &:focus {
+    background-color: $blue-primary-hover;
+    border-color: $blue-primary-hover;
+  }
+}
+
+.btn-header {
+  background-color: $soft-white;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  color: $blue-primary;
+  padding: 12px 40px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $soft-white-hover;
+    color: $blue-primary;
+  }
+
+  &:active {
+    background-color: $soft-white-hover;
+    color: $blue-primary;
+  }
+
+  &:focus {
+    background-color: $soft-white-hover;
+    color: $blue-primary;
+  }
+}
+
+.btn-secondary {
+  background-color: $white;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border-color: $black !important;
+  color: $black;
+  padding: 12px 40px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $white;
+    box-shadow: inset 0 0 0 1px #000!important;
+    color:$black;
+  }
+
+  &:active {
+    background-color: $white;
+    box-shadow: inset 0 0 0 1px #000!important;
+    color:$black;
+  }
+
+  &:focus {
+    background-color: $white;
+    box-shadow: inset 0 0 0 1px #000!important;
+    color:$black;
+  }
+}
+
+.btn-danger {
+  background-color: $red-primary;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  color: $white;
+  padding: 12px 40px;
+  text-decoration: none;
+}
+
+.truncate-3-line {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.truncate-2-line {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.spinner-border {
+  width: 60px;
+  height: 60px;
+}
+
+.bg-light {
+  background-color: $blue-primary !important;
+}
+
